@@ -53,5 +53,6 @@ function bling(){
 
 function stop(){
 	clearInterval(t);
+	restorecolor();
 	console.log("stop");
 }
