@@ -48,6 +48,7 @@ function color(){
 
 var t;
 function bling(){
+	clearInterval(t);
 	t = setInterval("color()",1000);
 }
 
